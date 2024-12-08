@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+  </header>
+
+  <main class="admin-panel">
+    <form id="postForm">
+      <input type="text" placeholder="Post Title" required>
+      <textarea placeholder="Post Content" required></textarea>
+      <input type="file" accept="image/*">
+      <button type="submit">Save Post</button>
+    </form>
+
+    <div id="postsList">
+      <p>No posts yet.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
